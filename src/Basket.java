@@ -1,16 +1,16 @@
 import java.util.ArrayList;
 
-public class Basket {
-    ArrayList <String> abstractProduct = new ArrayList<>();
+public class Basket  {
+    ArrayList <AbstractProduct> list1  = new ArrayList<>();
     private int sumBasket;
     private int numberOrder;
 
-    public ArrayList<String> getAbstractProduct() {
-        return abstractProduct;
+    public ArrayList<AbstractProduct> getList() {
+        return list1;
     }
 
-    public void setAbstractProduct(ArrayList<String> abstractProduct) {
-        this.abstractProduct = abstractProduct;
+    public void setList(ArrayList<AbstractProduct> list) {
+        this.list1 = list;
     }
 
     public int getSumBasket() {
@@ -29,8 +29,7 @@ public class Basket {
         this.numberOrder = numberOrder;
     }
 
-    public void addProduct  (String abstractProduct){ /////Мой метод "Добавить товар"
-
+    public void addProduct  (AbstractProduct list1){ /////Мой метод "Добавить товар"
 
 
     }
